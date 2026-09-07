@@ -37,10 +37,7 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
     <>
       <input type="hidden" name="_next"         value={THANK_YOU_URL} />
       <input type="hidden" name="_subject"      value="New Cruise Insurance Quote Request — CruiseInsurance.co.nz" />
-      <input type="hidden" name="_cc"           value="butlerdarin@gmail.com" />
-      <input type="hidden" name="_template"     value="table" />
       <input type="hidden" name="_autoresponse" value="Thanks for your enquiry! One of our NZ cruise insurance specialists will be in touch within 24 hours. — CruiseInsurance.co.nz" />
-      <input type="hidden" name="_captcha"      value="false" />
       <input type="text"   name="_honey"        style={{ display: 'none' }} />
     </>
   );
